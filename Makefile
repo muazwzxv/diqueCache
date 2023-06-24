@@ -1,5 +1,5 @@
 build:
-	go build -o bin/dicqueCache
+	go build -o bin/app
 
-run:
-	./bin/dicqueCache
+run: build
+	./bin/app
