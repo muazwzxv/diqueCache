@@ -10,6 +10,12 @@ import (
 
 func main() {
 
+  /**
+    use http library for this?
+    - easier parsing mechanism for payloads 
+    - easier response handler
+    - use REST format to talk to cache?
+  */
   opts := ServerOptions{
     ListenAddr: ":3000",
     IsLeader: true,
